@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="1/22/2020 9:50:46 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="LLWAPF14CTZ4"
+  DTS:CreatorName="onwelo\Bogdan.Marczak"
+  DTS:DelayValidation="True"
+  DTS:Description="Package Description"
+  DTS:DTSID="{65F24A3F-7A70-4059-B7DE-320AB8E40EBE}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="15.0.1900.80"
+  DTS:LocaleID="1045"
+  DTS:ObjectName="testowy Pakiet"
+  DTS:VersionGUID="{843F666B-4896-46A7-8593-AC6CECB65740}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\FELOOP Start1"
+      DTS:CreationName="STOCK:ForEachLoop"
+      DTS:DTSID="{56BD1145-4E13-43EC-A218-8DDE2DB541B8}"
+      DTS:ExecutableType="STOCK:ForEachLoop"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="FELOOP Start1">
+      <DTS:Variables />
+      <DTS:Executables />
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\SEQ Start1"
+      DTS:CreationName="STOCK:Sequence"
+      DTS:DTSID="{25EDB798-B679-4EB1-A0C4-6130DE9410B1}"
+      DTS:ExecutableType="STOCK:Sequence"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="SEQ Start1">
+      <DTS:Variables />
+      <DTS:Executables />
+    </DTS:Executable>
+  </DTS:Executables>
+</DTS:Executable>
